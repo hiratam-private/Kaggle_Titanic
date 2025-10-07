@@ -12,6 +12,7 @@ Kaggleから各自取得。
 - notebooks/
   - 01_baseline_lr.ipynb（欠損補完 + One-Hot + LR）
   - 02_feature_title_family.ipynb（Title/FamilySize/IsAlone）
+  - 03_title_logreg（Cabinのフラグ追加）
 
 ## 実験ログ（抜粋）
 - 2025-10-04
