@@ -21,10 +21,13 @@ Kaggleから各自取得。
 - 2025-10-05
   S1：LR(C=1.0) + Title/FamilySize/IsAlone + AgeをTitle中央値で補完 + Pclass(カテゴリ)
     → CV 0.8294 ± 0.0056, Hold-out 0.8436
+- 2025-10-05
   S2（＋CabinKnown）：Cabinの有無フラグ追加
     → CV 0.8361 ± 0.0111, Hold-out 0.8268 → 採用（CV↑・分散許容内）
+- 2025-10-05
   S3a（TicketPrefix）：Ticket先頭文字の系列化（レア圧縮）
     → CV 0.8316 ± 0.0136, Hold-out 0.8268 → 不採用（CV↓・分散↑）
+- 2025-10-05
   S3b（FareLog）：Fareをlog1pで圧縮
     → CV 0.8305 ± 0.0147, Hold-out 0.8212 → 不採用（CV↓・分散↑）
 
