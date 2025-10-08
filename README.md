@@ -59,6 +59,16 @@ Kaggleから各自取得。
   - S8': LR + GBC
    → CV 0.8350 ± 0.0170, Hold-out 0.8212 → 不採用（CV↓・分散↑）
 
+- 2025-10-08
+  - S1: LR + TicketGroupSize
+    → CV 0.8283 ± 0.0094, Hold-out 0.8268 → 不採用（冗長？）
+  - S2: LR + TicketShared（二値）
+    → CV 0.8260 ± 0.0097, Hold-out 0.8260 → 不採用（冗長？）
+  - S3: LR + TicketGroupSize（cap4→log1p）
+    → CV 0.8223 ± 0.0119, Hold-out 0.8268 → 不採用（冗長？）
+  - S4:  LR（Ticket系なし対照）
+    → CV 0.8272 ± 0.0044, Hold-out 0.8268 → Ticket系不採用
+    
 現在ベスト：S7'
 -Title正規化/FamilySize・IsAlone・FarePerPerson/AgeBand4/CabinKnown/Sex×Pclass
 → CV ≈ 0.8317（±0.0117）
