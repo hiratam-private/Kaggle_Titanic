@@ -1,5 +1,5 @@
 # kaggle-titanic-notes
-目的: Titanicで前処理→LR→実験を積み上げ、再現できる形で記録する。
+目的: Titanicで前処理→LR→ランダムフォレスト→実験を積み上げ、再現できる形で記録する。
 
 ## 環境
 - Python 3.10+
